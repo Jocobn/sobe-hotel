@@ -11,80 +11,6 @@ body {
 }
 
 
-/* Header Styles */
-.header {
-    background-color: #1a1a1a;
-    padding: 15px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-.header__container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
-
-.logo img {
-    height: 40px;
-}
-
-.nav__list {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-}
-
-.nav__list a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-.nav__list a:hover,
-.nav__list a.active {
-    color: #D4AF37;
-}
-
-.book-now {
-    background-color: #D4AF37;
-    color: #fff;
-    border: none;
-    padding: 12px 24px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
-}
-
-.book-now:hover {
-    background-color: #b69121;
-}
-
-/* Hero Section */
-.hero {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://hotelideja.net/wp-content/uploads/2023/12/superior-soba-hotel-ideja.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
-}
-
-.hero h1 {
-    color: #fff;
-    font-size: 48px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
 
 /* Rooms Container */
 .rooms-container {
@@ -231,78 +157,12 @@ body {
     }
 }
 
-/* Footer Styles */
-.footer {
-    background-color: #1a1a1a;
-    color: #fff;
-    padding: 60px 0 20px;
-}
-
-.footer__container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-}
-
-.footer__section {
-    flex: 1;
-}
-
-.footer__section h3 {
-    color: #D4AF37;
-    margin-bottom: 20px;
-    font-size: 18px;
-}
-
-.footer__section p,
-.footer__section a {
-    color: #fff;
-    text-decoration: none;
-    margin-bottom: 10px;
-    display: block;
-}
-
-.footer__section ul {
-    list-style: none;
-}
-
-.footer__section a:hover {
-    color: #D4AF37;
-}
-
-.footer__bottom {
-    max-width: 1200px;
-    margin: 40px auto 0;
-    padding: 20px 20px 0;
-    border-top: 1px solid rgba(255,255,255,0.1);
-    text-align: center;
-    font-size: 14px;
-    color: #666;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .header__container {
         flex-direction: column;
         gap: 15px;
-    }
-
-    .nav__list {
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
-    }
-
-    .hero {
-        height: 200px;
-        margin-top: 140px;
-    }
-
-    .hero h1 {
-        font-size: 36px;
     }
 
     .room-card,
